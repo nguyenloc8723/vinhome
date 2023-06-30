@@ -1,0 +1,748 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: inset;
+    font-family: "Work Sans", sans-serif;
+}
+body {
+    width: 100%;
+    margin: auto;
+}
+/*phần menu */
+header {
+    width: 100%;
+}
+.menu {
+    width: 100%;
+    background: #005555;
+    height: 70px;
+}
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #888;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.menu ul {
+    margin-left: 60%;
+}
+
+.menu ul li {
+    float: left;
+    list-style: none;
+    line-height: 70px;
+}
+
+.menu li a:hover {
+    color: #ffffff;
+}
+.logo a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 5%;
+    line-height: 70px;
+    float: left;
+    font-size: 30px;
+}
+#image{
+    width: 100%; 
+    height: 650px;
+}
+/* phần nội dung */
+aside {
+    width: 100%;
+
+}
+
+.tieude {
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.tieude1 {
+    width: 40%;
+    float: left;
+    line-height: 150px;
+    padding-left: 10%;
+    color: #00204a;
+}
+
+.tieudect {
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding-right: 10%;
+    line-height: 150px;
+
+}
+
+.tieudect a {
+    color: #ffffff;
+
+    padding: 0px 20px;
+    padding: 15px;
+    background: #005555;
+    border: 1px solid #c2c2c2;
+    border-radius: 50px;
+}
+
+.tieudect:hover {
+    transform: scale(1.02);
+}
+
+/*chi tết sản phẩm */
+.sanpham {
+    width: 80%;
+    padding: 0% 10%;
+    float: left;
+  
+}
+
+.sanphamct {
+    float: left;
+    width: 30%;
+    border: 1px solid #c2c2c2;
+    height: 560px;
+    margin: 0% 1.5%;
+    margin-bottom: 5%;
+
+}
+
+.anhsanpham {
+    width: 98%;
+    padding: 1%;
+    height: 280px;
+}
+.anhsanpham:hover{
+    transform: scale(1.05);
+} 
+.giatien {
+    color: #005555;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 2% 8%;
+
+}
+
+.diachi {
+    color: #6c757d;
+
+    font-size: 15px;
+    padding: 2% 8%;
+    padding-bottom: 3%;
+}
+
+.quocgia {
+    font-size: 23px;
+    font-weight: 700;
+    color: #000;
+    padding: 3% 8%;
+}
+
+.iconct {
+    padding: 3% 8%;
+    color: #6c757d;
+    font-size: 15px;
+    padding-bottom: 10%;
+}
+
+.chitietsp a {
+
+    padding: 3% 8%;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 3% 8%;
+    background: #005555;
+    color: #ffffff;
+}
+
+.chitietsp:hover {
+    transform: scale(1.05);
+}
+
+/* lien hệ */
+.lienhe {
+    float: left;
+    width: 80%;
+    height: 340px;
+    background: #f8f9fa;
+    padding: 0% 10%;
+}
+
+.lienketc {
+    float: left;
+    margin: 30px 0.8%;
+    width: 23%;
+    text-align: center;
+    background: #ffffff;
+    height: 280px;
+
+}
+
+.nhalk {
+    padding: 30px 20px;
+    font-size: 45px;
+    color: #00204a;
+}
+
+.ndlk {
+    color: #00204a;
+    font-size: 18px;
+}
+
+.ndan {
+    font-size: 15px;
+    color: #888;
+    padding: 10px 40px;
+}
+
+.ctlk a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #00204a;
+    padding: 10px 30px;
+    border-bottom: 3px solid #00204a;
+}
+
+.ctlk a:hover {
+    border: none;
+}
+
+/*danh gia */
+.danhgia {
+    width: 80%;
+    float: left;
+    height: 600px;
+    background: #ffffff;
+    padding: 0% 10%;
+}
+
+.danhgiact {
+    width: 30%;
+    margin: 0% 1.5%;
+    float: left;
+}
+
+.danhgiakh {
+    font-size: 25px;
+    padding: 70px 0px;
+}
+
+.anhkh {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.sao {
+    padding: 2% 0% 0% 0%;
+    color: gold;
+}
+
+.tenkh {
+    font-size: 20px;
+    color: #00204a;
+    padding-bottom: 7%;
+    padding-top: 2%;
+}
+
+.dgkh {
+    text-align: justify;
+    padding-right: 20px;
+    line-height: 25px;
+    padding-bottom: 5%;
+    color: #000;
+}
+
+.vaitro {
+    color: #888;
+}
+
+/* timkiemnha*/
+.timkiemnha {
+    width: 80%;
+    float: left;
+
+    background: #f8f9fa;
+    padding: 0% 10%;
+}
+
+.tknha {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 2;
+    color: #00204a;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.tknhacon {
+    text-align: center;
+    padding: 2% 0%;
+    color: #888;
+    line-height: 25px;
+    padding-bottom: 5%;
+}
+
+    .tkct {
+        padding-bottom: 5%;
+        width: 100%;
+        background: #f8f9fa;
+        float: left;
+    }
+
+    .taisan {
+        float: left;
+        width: 40%;
+
+    }
+
+    .taisan1 {
+        width: 100%;
+
+        height: 150px;
+    }
+
+    .anhtaisan {
+        float: left;
+        width: 60%;
+
+    }
+
+    .anhts1 {
+        width: 600px;
+        height: 400px;
+        padding: 0px 50px;
+        
+    }
+
+    .tkicon {
+        text-align: center;
+        width: 50px;
+        height: 60px;
+        font-size: 25px;
+        border: 1px solid #efefef;
+        border-radius: 100%;
+        padding: 5% 5%;
+        background: #efefef;
+        float: left;
+        padding-bottom: 3px;
+        color: #00204a;
+    }
+
+    .tkicon:hover {
+        background: #ffffff;
+        border: 2px solid #00204a;
+    }
+
+    .tknd1 {
+        float: left;
+        font-size: 18px;
+        font-weight: 700;
+        color: #00204a;
+        padding: 3% 4%;
+    }
+
+    .tknd2 {
+        float: left;
+        color: #888;
+        padding: 0% 4%;
+        line-height: 1.5;
+    }
+
+/*mua bán tài sản */
+.muats {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    width: 95%;
+    float: left;
+}
+
+.muats1 {
+    width: 25%;
+    float: left;
+}
+
+.ts1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #00204a;
+}
+
+.ts2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #888;
+    padding: 5% 0%;
+}
+
+/*ứng tuyển */
+.ungtuyen {
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: 320px;
+}
+
+.utuyen {
+    line-height: 1.5;
+    color: #00204a;
+    padding: 5% 0% 0% 0%;
+    padding-bottom: 4%;
+}
+
+.utclick a {
+
+    text-decoration: none;
+    color: #ffffff;
+    background: #005555;
+    border: 1px solid #005555;
+    padding: 1.5% 2%;
+    border-radius: 40px;
+}
+
+.utclick:hover {
+    transform: scale(1.05);
+}
+
+/* daily*/
+.daily {
+    float: left;
+    width: 80%;
+    padding: 0% 10%;
+    background: #f8f9fa;
+    padding-bottom: 5%;
+
+}
+
+.dlnha {
+    text-align: center;
+    font-weight: 400;
+    color: #00204a;
+    padding-top: 5%;
+    
+}
+
+.dlnhacon {
+    text-align: center;
+    padding: 0% 20%;
+    color: #888;
+    line-height: 25px;
+    padding-bottom: 5%;
+}
+
+.dlct {
+    float: left;
+    margin: 0% 1.5%;
+    text-align: center;
+    width: 30%;
+    background: #ffffff;
+    height: 380px;
+}
+
+.dlanh {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.dlct2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #00204a;
+    padding-top: 5%;
+}
+
+.dlct3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #888;
+    padding-top: 5px;
+}
+
+.dlct4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #888;
+    padding: 5% 5%;
+
+}
+
+.lkxht {
+    float: left;
+    width: 100%;
+    padding-left: 15%;
+}
+
+.lkxh a {
+    font-size: 26px;
+    float: left;
+    padding: 2% 5%;
+    color: #00204a;
+}
+
+.lkxh:hover {
+    transform: scale(1.08);
+}
+
+/*footer*/
+footer {
+    float: left;
+    width: 80%;
+    padding: 0% 10%;
+    height: 400px;
+    background: #efefef;
+}
+
+.nguon {
+    float: left;
+    width: 28%;
+    padding: 0% 2%;
+}
+
+h3 {
+    padding: 20% 0% 0%;
+    padding-bottom: 8%;
+    color: #00204a
+}
+
+.dcfpt a {
+    font-size: 15px;
+    color: #888;
+    line-height: 2.5;
+    text-decoration: underline;
+}
+
+.dcfpt a:hover {
+    color: #00204a;
+    text-decoration: none;
+}
+
+.dcct a {
+    text-decoration: none;
+    color: #888;
+    line-height: 2.5;
+    text-decoration: underline;
+}
+
+.dcct a:hover {
+    color: #00204a;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nguon1 {
+    width: 50%;
+    float: left;
+}
+
+.nguon1 li a {
+    color: #888;
+    line-height: 2;
+    text-decoration: underline;
+}
+
+.nguon2 {
+    width: 50%;
+    float: left;
+}
+
+.nguon2 li a {
+    color: #888;
+    line-height: 2;
+    text-decoration: underline;
+}
+
+.nguon3 {
+    width: 100%;
+    float: left;
+
+}
+
+.nguon3 a {
+    float: left;
+    color: #888;
+    font-size: 25px;
+    padding: 5% 0%;
+    padding-right: 4%;
+
+}
+
+.nguon4 {
+    float: left;
+    width: 28%;
+    padding: 0% 4%;
+
+}
+
+.nguon1 li a:hover {
+    color: #00204a;
+    text-decoration: none;
+
+}
+
+.nguon2 li a:hover {
+    color: #00204a;
+    text-decoration: none;
+}
+
+.nguon3 li a:hover {
+    color: #00204a;
+    text-decoration: none;
+    transform: scale(1.08);
+}
+
+/*lienhe.css */
+.diadiem {
+    float: left;
+    width: 80%;
+    padding: 5% 10%;
+}
+
+.diadiem1 {
+    width: 100%;
+    float: left;
+    padding-bottom: 3%;
+
+}
+
+.diadiem11 {
+    width: 30%;
+    float: left;
+    padding-bottom: 3%;
+
+}
+
+.diadiem2 {
+    width: 70%;
+    float: left;
+    padding-bottom: 3%;
+
+}
+
+.dd1 {
+    float: left;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    color: #00204a;
+}
+
+.dd2 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #00204a;
+    padding: 1% 4%;
+}
+
+.dd3 {
+    font-size: 14px;
+    color: #888;
+    padding-right: 10%;
+}
+
+.name {
+    float: left;
+    width: 40%;
+    margin: 0% 5%;
+}
+
+.form-control {
+    border: 1px solid #6c757d;
+ 
+    width: 100%;
+    padding: 2% 3%;
+    margin-bottom: 7%;
+
+
+}
+.form-control1 {
+    border: 1px solid #6c757d;
+ 
+    width: 100%;
+    padding: 2% 3%;
+    margin-bottom: 5%;
+
+}
+
+.name1 {
+    width: 88%;
+    margin: 0% 5%;
+}
+
+.name31 {
+    width: 30%;
+    padding: 2% 0;
+    border-radius: 50px;
+    background: #005555;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0% 5%;
+}
+/* chi tiết sản phẩm */ 
+.ttvincom{
+    color: #00204a;
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-left: 4%;
+}
+.ttvincom1{
+    color: #00204a;
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 15px;
+    padding-left: 4%;
+}
+.anhtscon{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0%;
+}
+.vincomphong{
+    height: 100px;
+    width: 22%;
+    padding: 0% 0.2%;
+    border-radius: 10px;
+}
+.vincomphong:hover{transform: scale(1.06);}
+.tuvan{
+    text-align: center;
+    line-height: 1.7;
+}
+.tuvan1{
+    margin: 15px 20%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    float: left;
+    width: 60%;
+}
+.tuvan11{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #005555;
+    margin: 15px 20%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    float: left;
+    width: 68%;
+}
